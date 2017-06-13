@@ -1,0 +1,17 @@
+{
+  "name": "blog-challenge",
+  "version": "1.0.0",
+  "description": "For Thinkful Node lesson 4 part 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "uuid": "^3.0.1"
+  }
+}
