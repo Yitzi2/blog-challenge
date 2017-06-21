@@ -17,7 +17,7 @@ const blogPostSchema = mongoose.Schema ({
 });
 
 blogPostSchema.virtual('authorString').get(function () {
-  return `${this.firstName} ${this.lastName}`
+  return `${this.author.firstName} ${this.author.lastName}`
 });
 
 blogPostSchema.methods.apiRepr = function() {
